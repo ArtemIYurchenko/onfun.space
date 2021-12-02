@@ -1,0 +1,12 @@
+.footer_div{
+		z-index:10; 
+		background: rgba(20, 30, 48, 1);
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 68px;
+	}
+.back_body{
+	background: #243b55;
+}
