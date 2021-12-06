@@ -1,0 +1,48 @@
+#profile .img img{
+	height: 400px;
+    width: 400px;
+	
+}
+#profile .img{
+	height: 400px;
+    width: 400px;
+	position: relative;
+    align-content: center;
+    display: flex;
+	
+    
+    
+}
+#profile .name{
+	line-height:45px;
+}
+#profile .description{
+	line-height:45px;
+	word-break: break-all;
+	
+	
+}
+#profile{
+	display: flex;
+	
+}
+#profile .text{
+	margin-left:20px;
+	
+
+}
+
+#profile .price{
+	padding-top:40px;
+	
+
+}
+.usercontent{
+		display: block;
+	margin:100px ;
+    width: 1000px;
+	height:700px;
+   background-color:#fff;
+	margin-right:10%;
+	
+}

@@ -1,0 +1,109 @@
+
+
+
+a.button11 {
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-size: 135%;
+  font-weight: 700;
+  text-decoration: none; 
+  padding: .25em .5em;
+}
+a.button11:after {
+  content: "В корзину";  
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  width: calc(100% + 9*(1em*90/135) - 2px*2*2);  /* где 6*(1em*90/135), где 6 - это 6 букв, 90 - это font-size after, а 135 - это font-size родителя */
+  text-align: right;
+  color: #fff;
+  font-size: 90%;
+  padding: .25em .5em;
+  border-radius: 5px;
+  border: 2px solid #c61e40; 
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  background: linear-gradient(#d4536d, #c61e40) no-repeat 100% 0;
+  background-size: calc(8*(1em*90/135) + .5em) 100%;
+  box-shadow: inset calc(-8*(1em*90/135) - .5em) 0 rgba(255,255,255,0);
+  line-height:25px !important;
+  transition: .3s;
+}
+a.button11:hover:after {
+  box-shadow: inset calc(-8*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);
+}
+a.button11:active:after {
+  background-image: linear-gradient(#c61e40, #d4536d);
+}
+
+
+a.button12 {
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-size: 135%;
+  font-weight: 700;
+  text-decoration: none; 
+  padding: .25em .5em;
+}
+a.button12:after {
+  content: "Удалить";  
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  width: calc(100% + 8*(1em*90/135) - 2px*2*2);  /* где 6*(1em*90/135), где 6 - это 6 букв, 90 - это font-size after, а 135 - это font-size родителя */
+  text-align: right;
+  color: #fff;
+  font-size: 90%;
+  padding: .25em .5em;
+  border-radius: 5px;
+  border: 2px solid #c61e40; 
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  background: linear-gradient(#d4536d, #c61e40) no-repeat 100% 0;
+  background-size: calc(7*(1em*90/135) + .5em) 100%;
+  box-shadow: inset calc(-7*(1em*90/135) - .5em) 0 rgba(255,255,255,0);
+  line-height:25px !important;
+  transition: .3s;
+}
+a.button12:hover:after {
+  box-shadow: inset calc(-8*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);
+}
+a.button12:active:after {
+  background-image: linear-gradient(#c61e40, #d4536d);
+}
+
+.empty_basket{
+	
+	padding-top: 20%;
+    padding-left: 45%;
+    width: 1415px;
+	font-size:xxx-large;
+}
+
+.data_order{
+	
+	width: 500px;
+	height:300px;
+	background-color:#fff;
+	float:right;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+.basket_order{
+	
+	margin:100px auto;
+    width: 1000px;
+	float: left;
+	background-color:#fff;
+	margin-left: 100px;
+	margin-bottom:100px;
+	
+	
+}
